@@ -1,5 +1,62 @@
-# Vue 3 + Vite
+# 🚀 Vue Frontend
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A modern frontend built with **Vue 3 + Vite**, designed to work seamlessly with a Laravel API backend.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 📌 Features
+- ⚡ Lightning-fast development with Vite
+- 🎨 Clean and modular Vue 3 architecture
+- 🔗 API communication using Axios
+- 🛣️ Routing powered by Vue Router
+- 📁 Scalable and maintainable folder structure
+
+---
+
+## 🛠️ Project Setup
+
+### Install dependencies
+npm install
+
+### Run development server
+npm run dev
+
+### Build for production
+npm run build
+
+### Preview production build
+npm run preview
+
+---
+
+## 🔧 Environment Variables
+Create a `.env` or `.env.local` file in the project root:
+
+VITE_API_URL=https://localhost/backend/api
+
+
+Use this value in Axios:
+
+```js
+axios.defaults.baseURL = import.meta.env.VITE_API_URL;
+```
+## 🧩 Tech Stack
+1.Vue 3
+
+2.Vite
+
+3.Axios
+
+4.Vue Router
+
+5.Pinia
+
+6.Tailwind CSS
+
+Create a `.env` or `.env.local` file in the project:
+
+
+## Backend Repo
+  https://github.com/akshaykashyapgithub/image-manager-api-backend.git
+
+
